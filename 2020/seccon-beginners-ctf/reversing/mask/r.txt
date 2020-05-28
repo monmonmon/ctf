@@ -1,0 +1,37 @@
+a a a
+b ` b
+c a c
+d d `
+e e a
+f d b
+g e c
+h ` h
+i a i
+j ` j
+k a k
+l d h
+m e i
+n d j
+o e k
+p p `
+q q a
+r p b
+s q c
+t t `
+u u a
+v t b
+w u c
+x p h
+y q i
+z p j
+
+0 0
+1 1 !
+2 0 "
+3 1 #
+4 4
+5 5 !
+6 4 "
+7 5 #
+8 0 (
+9 1 )
