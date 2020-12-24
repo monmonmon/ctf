@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  hidden:
+    build:
+      args: 
+        FLAG: '${FLAG}'
+      context: ./hidden
+      dockerfile: ../Dockerfile
+    image: '${IMAGE_NAME_HIDDEN}'
+  
+  frontend:
+    build:
+      args: 
+        FLAG: 'Nothing here!'
+      context: ./frontend
+      dockerfile: ../Dockerfile
+    image: '${IMAGE_NAME_FRONTEND}'
+    ports:
+      - '443:443'
+    depends_on:
+      - 'hidden'
